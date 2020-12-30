@@ -36,6 +36,7 @@ Pod::Spec.new do |spec|
   ]
 
   spec.prepare_command = <<-CMD
+    cat opencv2.xcframework.zip.* > opencv2.xcframework.zip
     unzip -o opencv2.xcframework.zip
   CMD
 
