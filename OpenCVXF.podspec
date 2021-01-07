@@ -41,8 +41,8 @@ Pod::Spec.new do |spec|
   CMD
 
   spec.source_files = "opencv2.xcframework/ios-arm64_armv7/opencv2.framework/Versions/A/Headers/**/*{.h,.hpp}"
-  spec.header_dir = "opencv2"
-  spec.header_mappings_dir = "opencv2.xcframework/ios-arm64_armv7/opencv2.framework/Versions/A/Headers"
+  # spec.header_dir = "opencv2"
+  # spec.header_mappings_dir = "opencv2.xcframework/ios-arm64_armv7/opencv2.framework/Versions/A/Headers"
   spec.preserve_paths = "opencv2.xcframework"
   spec.vendored_frameworks = "opencv2.xcframework"
   spec.requires_arc = false
